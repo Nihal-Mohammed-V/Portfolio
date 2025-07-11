@@ -26,6 +26,6 @@ class MyApp extends StatelessWidget {
                 bodyMedium: const TextStyle(color: bodyTextColor),
               ),
         ),
-        home: SplashView());
+        home: const SplashView());
   }
 }
