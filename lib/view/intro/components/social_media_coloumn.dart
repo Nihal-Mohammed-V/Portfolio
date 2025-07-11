@@ -18,11 +18,6 @@ class SocialMediaIconColumn extends StatelessWidget {
           onTap: () =>
               launchUrl(Uri.parse('https://github.com/Nihal-Mohammed-V')),
         ),
-        const SocialMediaIcon(
-          icon: 'assets/icons/dribble.svg',
-        ),
-        const SocialMediaIcon(icon: 'assets/icons/twitter.svg'),
-        const SocialMediaIcon(icon: 'assets/icons/linkedin.svg'),
       ],
     );
   }
