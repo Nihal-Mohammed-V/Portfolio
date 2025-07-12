@@ -8,45 +8,45 @@ class Project {
 
 List<Project> projectList = [
   Project(
-    'Dekozy-Ecommerce application',
-    'Presenting "Coffee" - a Flutter UI application that invites you to indulge in a delightful coffee adventure. Immerse yourself in the world of rich aroma and flavor as you browse through an exquisite selection of specialty coffees. With a user-friendly interface, exploring different blends and discovering their unique details becomes a delightful experience.',
+    'Dekozy-Ecommerce Furniture application',
+    'This Flutter-based e-commerce furniture application uses GetX for efficient state management and offers a seamless shopping experience with features like AI chatbot integration using the Rasa framework, AR-based furniture preview, secure Stripe payment gateway, and robust cart and order management. It leverages Firebase for authentication and backend services, while Cloudinary handles image and asset storage efficiently, making the app fast, interactive, and scalable for modern users.',
     'assets/images/coffee.png',
     'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
   ),
   Project(
     'Dekozy-Admin Panel',
-    'Car Control Dashboard is a user-friendly mobile application built using Flutter and powered by GetX for efficient state management. Enjoy a modern and intuitive design that adapts to various screen sizes, Interact with dynamic car controls, including speed, steering, and temperature. Realistic animations enhance the visual appeal, making it feel like you are controlling a real car!',
+    "The admin panel for the e-commerce furniture application is built using Flutter Web with GetX for state management and mirrors the main app's tech stack, enabling seamless backend control. It provides comprehensive management features, allowing admins to handle banners, product categories, inventory, brands, media assets, customer details, sales analytics, and orders. Integrated with Firebase for authentication and database operations, and Cloudinary for optimized media storage, the panel ensures efficient, real-time control over the platform’s content and operations through a clean, responsive web interface.",
     'assets/images/car.png',
     'https://github.com/Hamad-Anwar/Car-Controller-Getx-Flutter',
   ),
   Project(
       'Dedo-ToDo/Task Manager',
-      'Neumorphic TimeKit is an open-source project that brings together the elegance of a beautifully designed alarm system, an analog clock with a neumorphic touch, and a feature-rich stopwatch. Whether you\'re looking for a functional alarm tool, a stylish desktop clock, or a precise stopwatch, TimeKit has you covered.',
+      'This task manager application is a fully offline productivity tool built with Flutter and Bloc for robust state management. It features a beautifully designed UI that supports task categorization with color labels, local notifications for reminders, and a weekly graph to visualize task activity. Users can easily search, sort, and organize tasks, making it an efficient and user-friendly solution for managing daily to-do lists without requiring an internet connection.',
       'assets/images/alarm.jpg',
       'https://github.com/Hamad-Anwar/Neumorphic-Analog-Clockify'),
   Project(
       'YouTube Clone',
-      'CUI AIDER is an extraordinary application that brings together augmented reality (AR), a robust student portal, intuitive class management, and a comprehensive GPA system, providing an all-encompassing solution for students.Using AR technology, CUI AIDER offers an immersive experience, allowing users to explore the complete university campus virtually. Through AR, students can visualize buildings, navigate with interactive directions, and gain a better understanding of their surroundings.',
+      'This YouTube clone is a visually accurate replica of the official YouTube app, built using Flutter and managed with Bloc for structured state control. It integrates the YouTube Data API to fetch and display real-time video content, enabling users to search for videos, browse trending content, and watch seamlessly within the app. The application offers a smooth, responsive UI that closely mirrors the YouTube experience while showcasing clean architecture and efficient API handling.',
       'assets/images/cui.png',
       'https://github.com/Hamad-Anwar/'),
   Project(
       'Rental Management Application',
-      'A Flutter music streaming application that allows users to play audio files from local storage. The app features a beautiful neumorphic UI design and provides a smooth user experience for browsing and playing music.',
+      'This rental management application is built with Flutter and uses Provider for state management, designed to operate efficiently within a local network. It connects to a local server via IP to fetch and manage rental and product data in JSON format. The app allows users to add items by scanning barcodes, automatically checks availability based on selected dates, and generates QR codes containing the scanned product data at checkout. Additionally, it uses Hive as a lightweight local database to store rental records and user actions, ensuring fast access and data persistence even when temporarily disconnected from the local server.',
       'assets/images/player.png',
       'https://github.com/Hamad-Anwar/Neumorphic-Music_Player-Flutter'),
   Project(
       'EduSync-School Management System',
-      'This repository contains a Flutter implementation of a Food Recipe app with a captivating introduction section and impressive animations. It also features a signup and signin page with animations, elegantly presented on a bottom sheet.',
+      'EduSync is a full-stack school management system built with Flutter for the frontend and Node.js, Express.js, and MongoDB for the backend, using Provider for state management. Designed with modular roles—Admin, Teacher, and Parent—EduSync provides tailored functionalities for each user type. The Admin module manages student records, timetables, announcements, and overall system data. Teachers can create and manage assignments, communicate with parents, and update class schedules. Parents can view their child’s timetable, assignments, and announcements, and engage in real-time chat with teachers. The system offers a seamless, scalable, and interactive experience for all stakeholders involved in student management.',
       'assets/images/recipe.png',
       'https://github.com/Hamad-Anwar/Food-Recipe-App-Flutter'),
   Project(
       'FinLog-A Simple Money Tracking Application',
-      'Welcome to the Beautiful Task Scheduler App repository! This Flutter-based task management application combines elegant design with a robust backend, ensuring a seamless and organized task management experience. From stunning UI to real-time synchronization, this app has you covered.',
+      'Finlog is a simple yet elegant money tracking application built with Flutter, designed to help users manage their expenses and income effortlessly. With a beautiful and intuitive UI, the app allows users to categorize transactions, view summaries, and maintain a clear financial overview. Fully offline and privacy-focused, Finlog stores all data locally, ensuring users can track their finances anytime without needing internet access.',
       'assets/images/task.png',
       'https://github.com/Hamad-Anwar/Task-Sync-Pro-Flutter'),
   Project(
       'Devops as a service platform',
-      'Welcome to our innovative Flutter chat application! This feature-rich messaging platform allows users to connect and communicate seamlessly through text and images. The app is built using Flutter for the frontend and integrates with Firebase for backend services, including authentication, real-time database, and storage.',
+      'DevOps as a Service Platform is an ongoing full-stack project designed to simplify and automate the development workflow, similar to platforms like GitHub Actions. Built using Flutter for the frontend and Node.js, Express.js, and MongoDB for the backend, the platform enables users to register and connect their GitHub repositories, create custom build and deployment pipelines, and monitor deployment status with real-time logs. Users receive notifications on build or deployment success/failure, and can track the health and performance of deployed applications. The platform aims to offer a developer-friendly, scalable solution for continuous integration and delivery—all from a single unified interface.',
       'assets/images/chat.png',
       'https://github.com/Hamad-Anwar/Messenger-App-Backend-Firebase'),
 ];

@@ -47,9 +47,12 @@ class ProjectDetail extends StatelessWidget {
         // 🔽 Project description
         Expanded(
           child: SingleChildScrollView(
-            child: Text(
-              projectList[index].description,
-              style: const TextStyle(color: Colors.grey, height: 1.5),
+            child: Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: Text(
+                projectList[index].description,
+                style: const TextStyle(color: Colors.grey, height: 1.5),
+              ),
             ),
           ),
         ),
