@@ -166,9 +166,12 @@ class CollegeCard extends StatelessWidget {
                 color: Colors.white.withOpacity(0.1),
               ),
               child: ClipOval(
-                child: Image.asset(
-                  'assets/images/uoc.png',
-                  fit: BoxFit.contain,
+                child: Container(
+                  color: Colors.white,
+                  child: Image.asset(
+                    'assets/images/uoc.png',
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ),
             ),
