@@ -15,11 +15,11 @@ class ProjectDetail extends StatelessWidget {
       children: [
         // 🔼 Display image at the top
         ClipRRect(
-          borderRadius: BorderRadius.circular(12), // Optional rounded corners
+          borderRadius: BorderRadius.circular(12),
           child: Image.asset(
-            projectList[index].image, // Replace with your image field
+            projectList[index].image, 
             width: double.infinity,
-            height: 180,
+            height: 220,
             fit: BoxFit.cover,
           ),
         ),
