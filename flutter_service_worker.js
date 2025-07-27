@@ -36,7 +36,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "daa3f6b3f08ee1224e1dc03dc1feff94
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d7791ef376c159f302b8ad90a748d2ab",
 "version.json": "c420e205d8eac4ccea99913b4a50bfa7",
 "manifest.json": "4d2a074e955647542596586cbde41715",
-"flutter_bootstrap.js": "155b85698ad44af1b68c465f80734d8e",
+"flutter_bootstrap.js": "86b880afdd318299ae63b0c0bc34cb06",
 "canvaskit/skwasm.wasm": "f0dfd99007f989368db17c9abeed5a49",
 "canvaskit/canvaskit.wasm": "efeeba7dcc952dae57870d4df3111fad",
 "canvaskit/skwasm.js.symbols": "80806576fa1056b43dd6d0b445b4b6f7",
